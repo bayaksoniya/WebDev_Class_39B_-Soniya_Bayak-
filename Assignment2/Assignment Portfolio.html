@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mafia Boss | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="name">Mafia Boss</h1>
+        <p class="position">Financial Boss</p>
+        <nav class="nav-bar">
+            <a href="#Introduction">Introduction</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Youtube">Video</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Introduction">
+            <h2>Introduction</h2>
+            <p class="intro-text"><b>Mafia Boss</b>, known as <i>"The Financial Boss"</i>, is a fictional leader with strong financial influence. 
+                <mark>His motto is "Money controls power."</mark> He manages his wealth strategically and maintains a powerful reputation. 
+                His financial philosophy is based on earning 10<sup>2</sup> times more through smart investments and protecting every bank account, 
+                such as Account<sub>1</sub>.</p>
+            <figure class="portrait">
+                <img src="Mafia.jpg" alt="Portrait of the Mafia Boss">
+                <figcaption>The Financial Boss — a leader with a plan.</figcaption>
+            </figure>
+        </section>
+
+        <section id="Experience">
+            <h2>Experience</h2>
+            <ol class="experience-list">
+                <li>Financial Operations Manager — 8 years</li>
+                <li>Business Network Director — 7 years</li>
+                <li>Organization Leader — 6 years</li>
+                <li>Investment Strategist — 5 years</li>
+            </ol>
+        </section>
+
+        <section id="Skills">
+            <h2>Skills</h2>
+            <table class="skills-table">
+                <thead><tr><th>Skill</th><th>Experience</th></tr></thead>
+                <tbody>
+                    <tr><td>Leadership</td><td>6 years</td></tr>
+                    <tr><td>Negotiation</td><td>7 years</td></tr>
+                    <tr><td>Financial planning</td><td>8 years</td></tr>
+                    <tr><td>Strategy</td><td>5 years</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li>International Business Expansion</li>
+                <li>Financial Investment Network</li>
+                <li>Private Security Management</li>
+                <li>Underground Business Network</li>
+            </ul>
+        </section>
+
+        <section id="Youtube">
+            <h2>Featured Video</h2>
+            <div class="video-wrap">
+                <iframe src="https://www.youtube-nocookie.com/embed/FYEU9ImitQw" title="Featured YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form class="contact-form" action="#" method="get">
+                <div class="form-field"><label for="name">Name</label><input id="name" name="name" type="text" required></div>
+
+                <div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+
+                <div class="form-field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel"></div>
+                <div class="form-field"><label for="gender">Gender</label><select id="gender" name="gender" required>
+                    <option value="">Choose an option</option>
+                    <option>Female</option><option>Male</option><option>Non-binary</option><option>Prefer not to say</option>
+                </select></div>
+
+                <div class="form-field"><label for="role">Role</label><input id="role" name="role" type="text" placeholder="Your role"></div>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
